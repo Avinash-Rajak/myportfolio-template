@@ -1,0 +1,113 @@
+.navbar-brand {
+  margin-left: 40px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.section {
+  padding: 112px 0;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500 !important;
+  line-height: 1.2;
+}
+
+.filters a {
+  text-decoration: none;
+  list-style: none;
+  padding: 0 12px;
+  color: #000;
+}
+
+.filters a.active {
+  border-bottom: 1px solid #000;
+}
+
+.heading {
+  font-size: 28px;
+}
+
+.services i {
+  font-size: 40px;
+}
+
+.h4 {
+  font-size: 16px;
+}
+
+.list-line li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-line li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  width: 10px;
+  height: 2px;
+  background: #000;
+}
+
+.testimonials-wrap {
+  background-color: #ECEFF2;
+  height: 390px;
+  padding: 50px 50px;
+}
+
+.testimonials {
+  text-align: center;
+  max-width: 500px;
+  margin: 0 258px;
+}
+
+.testimonials p {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.img {
+  border-radius: 50%;
+  width: 120px;
+  margin: 0 auto 30px auto;
+}
+
+.footer {
+  padding-bottom: 4rem;
+}
+
+.footer a {
+  color: #000;
+  text-decoration: none;
+}
+
+.social a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f8f9fa;
+  position: relative;
+  text-align: center;
+  color: #0d1e2d;
+}
+
+.social a span {
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=main.css.map */
