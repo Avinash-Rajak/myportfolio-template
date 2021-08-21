@@ -1,15 +1,19 @@
 body{
-    font-family: monospace;
+    font-family: 'Inconsolata', monospace;
 }
 
 h1, h2, h3, h4, h5, h6, .font-heading {
-   font-family: sans-serif;
+   font-family: 'Raleway', sans-serif;
 }
 
 .navbar-brand {
     margin-left: 40px;
     font-weight: 600;
     font-size: 25px;
+}
+
+.active{
+    font-weight: 700;
 }
 
 .section{
@@ -89,6 +93,7 @@ h2{
     & p{
         font-size: 20px;
         margin-bottom: 16px;
+
     }
 }
 
@@ -127,4 +132,13 @@ h2{
     transform: translate(-50%, -50%);
 }
 
+// .row img{
+//     -webkit-transform: scale(0.5);
+//     transform: scale(0.5);
+//     transition: 0.4s ease-in-out;
+// }
 
+// .row img:hover{
+//     -webkit-transform: scale(1.1);
+//     transform: scale(1.1);
+// }
