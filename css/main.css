@@ -36,6 +36,7 @@ h2 {
 
 .h4 {
   font-size: 16px;
+  padding-top: 10px !important;
 }
 
 .list-line li {
@@ -109,5 +110,44 @@ h2 {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.custom-progress {
+  height: 7px;
+}
+
+.progress-bar {
+  background-color: #000;
+}
+
+.readmore {
+  border: 1px solid #000;
+  padding: 10px 15px;
+  font-size: 12px;
+  color: #000;
+  -webkit-transition: .2s all ease;
+  transition: .2s all ease;
+  font-weight: 700;
+}
+
+.readmore:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+.form-control {
+  border-radius: 0;
+  border: 1px solid transparent;
+  background: #f8f9fa;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /*# sourceMappingURL=main.css.map */
