@@ -1,3 +1,11 @@
+body{
+    font-family: monospace;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+   font-family: sans-serif;
+}
+
 .navbar-brand {
     margin-left: 40px;
     font-weight: 600;
@@ -13,6 +21,7 @@ h2{
     margin-bottom: 0.5rem;
     font-weight: 500 !important;
     line-height: 1.2;
+    
 }
 
 .filters a{
@@ -66,7 +75,7 @@ h2{
 
 .testimonials-wrap{
     background-color:#ECEFF2;
-    height: 390px;
+    min-height: 400px;
     padding:50px 50px ;
 }
 
@@ -75,7 +84,7 @@ h2{
 .testimonials{
     text-align: center;
     max-width: 500px;
-    margin: 0 258px;
+    
 
     & p{
         font-size: 20px;
@@ -117,4 +126,5 @@ h2{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
 
